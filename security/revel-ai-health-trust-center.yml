@@ -1,0 +1,23 @@
+generated: '2026-07-20'
+method: searched
+probe: true
+source: https://www.revelaihealth.com/security
+url: https://www.revelaihealth.com/security
+certifications:
+- SOC 2 Type II
+- HIPAA
+- AAOS PROMs Vendor Program
+detail:
+  soc2: SOC 2 Type II audit covering Security, Availability, and Confidentiality
+    Trust Service Criteria.
+  hipaa: Administrative, physical, and technical safeguards aligned with the HIPAA
+    Security Rule; signs Business Associate Agreements (BAAs).
+  aaos_proms: Listed vendor in the AAOS PROMs Vendor Program for patient-reported
+    outcome measures collection.
+evidence:
+- source: https://www.revelaihealth.com/security
+  keywords:
+  - soc 2 type ii
+  - hipaa
+  - business associate agreement
+  - aaos proms

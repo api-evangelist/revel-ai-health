@@ -1,7 +1,27 @@
 aid: revel-ai-health
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/revel-ai-health.png
 name: Revel Ai Health
-description: Revel Ai Health is a company surfaced as a portfolio company of techstars and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: RevelAi Health is a healthcare technology company building a conversational
+  AI platform for orthopedic and musculoskeletal care teams. Its AI agent, "kimi,"
+  automates patient outreach, triage, clinical documentation, and follow-up across
+  the care episode, supporting value-based care models, quality reporting, and Patient-Reported
+  Outcome Measures (PROM) collection. The platform offers multilingual population-health
+  outreach across voice, text, and email, ambient clinical documentation, and AI-augmented
+  staffing and task management for ambulatory surgery centers, hospitals and health
+  systems, and physician practices. The company is a Techstars portfolio company and
+  maintains SOC 2 Type II and HIPAA compliance programs. This profile was enriched
+  by the API Evangelist pipeline; no public API surface was found.
 url: https://raw.githubusercontent.com/api-evangelist/revel-ai-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Healthcare
+- Artificial Intelligence
+- Conversational AI
+- Value-Based Care
+- Orthopedics
+- Digital Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,24 @@ maintainers:
 common:
 - type: Website
   url: https://revelaihealth.com/
+- type: Support
+  url: https://www.revelaihealth.com/contact
+- type: PrivacyPolicy
+  url: https://www.revelaihealth.com/privacy-policy
+- type: TermsOfService
+  url: https://www.revelaihealth.com/terms-of-service
+- type: Security
+  url: security/revel-ai-health-vulnerability-disclosure.yml
+- type: Compliance
+  url: security/revel-ai-health-trust-center.yml
+- type: TrustCenter
+  url: security/revel-ai-health-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/revel-ai-health-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/revel-ai-health-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
